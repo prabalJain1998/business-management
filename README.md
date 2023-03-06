@@ -6,7 +6,7 @@ Fully Automated Business Management Platform Web application that allows User/Ad
 **[Technologies](#0-technologies)**<br>
 **[Setup](#1-setup)**<br>
 **[Overview](#2-overview)**<br>
-**[Directory Structure](#3-directory-structure)**<br>
+**[Happy Flow Structure](#3-happy-flow)**<br>
 
 ## Technologies
 ![image](Mern.png)
