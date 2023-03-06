@@ -1,0 +1,44 @@
+.searchCustomer{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(247, 227, 227);
+    max-width: 100%;
+}
+
+
+.searchBox2 > input[type="text"],
+.searchBox3 > input[type="text"]{
+    box-shadow: 0 0 5px rgba(0,0,0,0.274);
+    background-color: white;
+    border:none;
+    color:rgba(0,0,0,0.637);
+    padding:1vmax 3vmax;
+    width:100%;
+    outline: none;
+    border-radius: 0%;
+    box-sizing: border-box;
+    height: 9%;
+}
+
+
+.searchBox2 > input[type="submit"],
+.searchBox3 > input[type="submit"]{
+    box-shadow: 0 0 5px rgba(0,0,0,0.274);
+    background-color: tomato;
+    border:none;
+    color:rgba(0,0,0,0.637);
+    padding:2vmax;
+    width:20%;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 0%;
+}
+
+
+.searchBox1 > input[type="submit"]:hover,
+.searchBox2 > input[type="submit"]:hover,
+.searchBox3 > input[type="submit"]:hover{
+    background-color: rgb(98, 234, 13);}

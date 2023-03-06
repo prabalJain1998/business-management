@@ -1,0 +1,122 @@
+ .dashboard2{
+    width: 100%;
+}
+
+.productListContainer {
+  width: 100%;
+  box-sizing: border-box;
+  background-color:"white";
+  border-left: 1px solid rgba(0, 0, 0, 0.158);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#productListHeading {
+  font: 400 2rem "Roboto";
+  display: "flex";
+  padding: 0.5vmax;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.637);
+  transition: all 0.5s;
+  margin: 2rem;
+  text-align: center;
+}
+
+.productListTable {
+  background-color: white;
+  border: none !important;
+}
+
+.productListTable div {
+  color: rgba(0, 0, 0, 0.678);
+  border: none !important;
+}
+
+.productListTable a,
+.productListTable button {
+  color: rgba(0, 0, 0, 0.527);
+  transition: all 0.5s;
+}
+
+.productListTable a:hover {
+  color: tomato;
+}
+
+.productListTable button:hover {
+  color: rgb(236, 30, 30);
+}
+
+
+.insights{
+  background-color: aqua;
+  border-radius: 25%;
+  border-bottom: 2px solid tomato;
+}
+
+.productListContainer2 {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: "white";
+    border-left: 1px solid rgba(0, 0, 0, 0.158);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  #productListHeading2 {
+    font: 200 1rem "Roboto";
+    padding: 0.5vmax;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.637);
+    transition: all 0.5s;
+    margin: 2rem;
+    text-align: center;
+  }
+  
+  .productListTable2 {
+    background-color: white;
+    border: none !important;
+  }
+ 
+  /*
+  .productListTable2 div {
+    font: 300 1vmax "Roboto";
+    color: rgba(0, 0, 0, 0.678);
+    border: none !important;
+  }
+ 
+    */ 
+  .productListTable2 a,
+  .productListTable button {
+    color: rgba(0, 0, 0, 0.527);
+    transition: all 0.5s;
+  }
+  
+  .productListTable2 a:hover {
+    color: tomato;
+  }
+  
+  .productListTable2 button:hover {
+    color: rgb(236, 30, 30);
+  }
+ 
+  .MuiDataGrid-columnHeader div {
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+  }
+
+#editButtonParty{
+  width: 2vmax;
+  height: 2vmax;
+  align-items: center;
+  padding: 2vmax;
+  color:tomato;
+  
+}
+  
+  @media screen and (max-width: 600px) {
+  
+  }
+   

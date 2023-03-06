@@ -1,0 +1,13 @@
+export const CREATE_LOG_REQUEST = "CREATE_LOG_REQUEST";
+export const CREATE_LOG_SUCCESS = "CREATE_LOG_SUCCESS";
+export const CREATE_LOG_FAIL = "CREATE_LOG_FAIL";
+export const LOG_RESET = "LOG_RESET";
+
+export const ALL_LOG_REQUEST = "ALL_LOG_REQUEST";
+export const ALL_LOG_SUCCESS = "ALL_LOG_SUCCESS";
+export const ALL_LOG_FAIL = "ALL_LOG_FAIL";
+export const ALL_LOG_RESET = "ALL_LOG_RESET";
+
+export const PAYMENT_COLLECTED = "PAYMENT_COLLECTED";
+
+export const CLEAR_ERRORS = "CLEAR_ERRORS";

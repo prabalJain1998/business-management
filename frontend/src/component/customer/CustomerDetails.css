@@ -1,0 +1,113 @@
+h1,h2,h3,h4,h5,h6{
+  font-family: "Roboto";
+  margin: 0;
+  padding: 0;
+}
+
+p{
+  font-family: "Roboto";
+  margin: 0;
+  padding: 0;
+}
+
+.subHeader{
+  text-align: right;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  padding:1.5vmax;
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.container > div{
+  width: 100%;
+}
+
+.invoice{
+  font-size: 10px;
+}
+
+.brand-section{
+ background-color: white;
+ padding: 5px 5px;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-6{
+  width: 50%;
+  flex: 0 0 auto;
+}
+.text-white{
+  color: black;
+}
+.company-details{
+  float: right;
+  text-align: right;
+}
+.body-section{
+  padding: 2px;
+  border: 1px solid gray;
+}
+.heading{
+  font-family: "Roboto";
+  font-size: 10px;
+  margin-bottom: 0px;
+}
+.sub-heading{
+  margin-bottom: 0px;
+}
+table{
+  background-color: #fff;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table thead tr{
+  border: 1px solid #111;
+  font-family: "Roboto";
+  background-color: #f2f2f2;
+}
+
+table td {
+  text-align: center;
+  font-family: "Roboto";
+}
+
+table th, table td {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.table-bordered td, .table-bordered th {
+  border: 1px solid #dee2e6;
+}
+.text-right{
+  text-align: end;
+}
+.w-20{
+  width: 10%;
+}
+.float-right{
+  float: right;
+}
+
+
+@media screen and (max-width: 600px) {
+  .container>div{
+    width:100%;
+  }
+  .invoice{
+    font-size: 12px;
+  }
+
+  .sub-heading{
+    font-size: 12px;
+  }
+  
+}

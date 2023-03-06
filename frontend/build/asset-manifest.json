@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ebdc3741.css",
+    "main.js": "/static/js/main.319aa1c0.js",
+    "static/js/905.e498e94b.chunk.js": "/static/js/905.e498e94b.chunk.js",
+    "static/js/313.e48f1cff.chunk.js": "/static/js/313.e48f1cff.chunk.js",
+    "static/js/817.2a514683.chunk.js": "/static/js/817.2a514683.chunk.js",
+    "static/media/PaymentBackground1.png": "/static/media/PaymentBackground1.c353c5aca0a2461bcde4.png",
+    "static/media/PaymentBackground2.png": "/static/media/PaymentBackground2.a5e38880b760f40776cc.png",
+    "static/media/whiteBackground.png": "/static/media/whiteBackground.7bddcf97439ceae51e82.png",
+    "static/media/singhaiLogo.PNG": "/static/media/singhaiLogo.f639cc2f900a0a947396.PNG",
+    "index.html": "/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.ebdc3741.css",
+    "static/js/main.319aa1c0.js"
+  ]
+}

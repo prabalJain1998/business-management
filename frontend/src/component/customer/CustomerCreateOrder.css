@@ -1,0 +1,192 @@
+
+.form-inline > input,
+.form-inline > select,
+.grossBtn > input{
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 1, 1, 0.267);
+  outline: none;
+  margin-right: 5px;
+  margin-top: 5px;
+  font-size: small;
+  padding: 18px;
+  margin-left: 10px;
+  width: 30vh;
+  box-sizing: border-box;
+}
+
+
+#contactTextFields{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+#contactTextFields > div{
+  width: 100%;
+  padding-right:5px;
+}
+
+.create-customer-form {
+  display: flex;
+  flex-direction: column;
+  padding: 1vmax;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.267);
+}
+
+.statusContainer {
+  display: flex;
+  flex-direction:row;
+  padding: 8px;
+}
+
+
+
+
+
+.createCustomerActions{
+  margin-top: 10px;
+  display: flex;
+  float: right;
+  color:"#A175E8";
+}
+
+#subOrder{
+  display: flex;
+  overflow-wrap: "anywhere";
+}
+
+
+.create-customer-form > div > div > select{
+  align-items: center;
+  padding: 1vmax;
+  margin-right: 1vmax;
+  background-color: white;
+}
+
+.create-customer-form > div > input,
+.create-customer-form > div > select,
+.create-customer-form > div > textarea
+{
+  padding: 1vmax 4vmax;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.267);
+  border-radius: 4px;
+  outline: none;
+}
+
+#createCustomerContainer{
+  max-width: 100%;
+}
+
+#createCustomerCreateButton{
+  border-radius: 10;
+  height:40px;
+  padding:1vmax;
+  margin:10px;
+  width:200px;
+  background-color: #A175E8;
+}
+
+
+
+.create-customer-form > div > svg,
+.form-inline > svg {
+  position: absolute;
+  transform: translateX(0.1vmax) translateY(1vmax);
+  font-size: 1.2vmax;
+  color: rgba(0, 0, 0, 0.623);
+}
+
+#fontGreat{
+  padding:1vmax;
+  color:#A175E8;
+}
+
+.grossBtn{
+  padding-top: 1vmax;
+  padding-right: 1vmax;
+  display: flex;
+}
+
+
+
+#partyDropdownField{
+  width: 200px;
+  background-color:white;
+}
+
+.addBtn{
+  border: none;
+  font: 300 0.9vmax "Roboto";
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+@media screen and (max-width: 600px) {
+ .create-customer-form > div{
+  padding: 1vmax;
+ }
+
+ .create-customer-form > div > input{
+  padding:2vmax;
+  font-size: large;
+ }
+
+ .multipleOrders > div{
+  padding: 1vmax;
+  display: flex;
+  flex-direction: column;
+ }
+
+ .multipleOrders > div > input{
+  padding: 2vmax;
+  font-size: 15px;
+ }
+ #subOrder{
+  display: flex;
+  flex-wrap: wrap;
+  overflow-wrap: "anywhere";
+}
+#contactTextFields{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+
+
+ .statusContainer{
+  display: flex;
+  flex-direction: column;
+ }
+
+ .statusContainer > div {
+  display: flex;
+  justify-content: center;
+  padding: 1vmax;
+ }
+
+ #deleteBtn{
+  max-width: 40%;
+  margin-top: 10px;
+ }
+
+ .createCustomerActions{
+  display:flex;
+  color:#A175E8;
+  float:right;
+}
+
+#partyDropdownField{
+  width: 200px;
+  background-color:white; 
+  margin-left:10px
+}
+
+ .form-inline > input,
+ .form-inline > select{
+  margin-top: 10px;
+  width:100%;
+ }
+ 
+}

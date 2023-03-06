@@ -1,0 +1,38 @@
+
+.deleteOrderPage >h2{
+    color:black;
+}
+.deleteOrderPage{
+    padding: 3vmax;
+}
+
+.MuiButton-label,
+.MuiButtonBase-root,
+.MuiButton-root,
+.MuiButton-text{
+    font-size: large;
+    padding: auto;
+    color: white;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    .deleteOrderPage >h2{
+        color:black;
+        padding: 1vmax;
+    }
+    .detailsDiv{
+        padding: 2vmax;
+    }
+    .deleteOrderPage{
+        padding: 3vmax;
+        font-size: small;
+    }
+
+    .deleteOrderPage > Button{
+        padding: 3vmax;
+    }
+    
+}

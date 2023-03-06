@@ -1,0 +1,69 @@
+.order-buttons{
+    max-width: 100%;
+}
+
+.percentage-analytics{
+    display: flex;
+    margin: auto;
+}
+
+.MuiInputBase-root{
+    width:350px;
+    max-width: 100%;
+}
+
+.MuiDataGrid-columnSeparator--sideRight:hover{
+    color: #131921;
+}
+
+.order-buttons > Button:hover{
+    box-shadow: rgba(28, 29, 29, 0.35) 0px 2px 15px;
+}
+
+.overall > div > div > div:hover{
+    box-shadow: rgba(28, 29, 29, 0.35) 0px 12px 15px;
+}
+
+.overall{
+    display: flex;
+    padding-bottom: 5px;
+}
+
+.MuiDataGrid-columnSeparator,
+.MuiDataGrid-columnSeparator:hover{
+    color: #131921;
+}
+
+#insights{
+    margin: auto;
+   
+}
+
+@media screen and (max-width: 600px) {
+    .overall{
+        display:flex;
+        flex-direction: column;
+    }
+    .overall > div{
+        padding:2px;
+    }
+    .order-buttons{
+        max-width: 100%;
+        margin: auto;
+    }
+    .order-buttons > Button{
+        font-size: 10px;
+        margin-top: 20px;
+    }
+    .percentage-analytics{
+        display: none;
+        justify-content: center;
+    }
+    #insights{
+        display: flex;
+       
+    }
+    #productListHeading{
+        display: none;
+    }
+}

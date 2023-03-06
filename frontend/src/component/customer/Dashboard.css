@@ -1,0 +1,71 @@
+.MuiDataGrid-columnHeaderTitleContainer {
+  color: black;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.night{
+  background-color: black;
+  color:"white",
+}
+
+#notificationDiv {
+  width: 500px;
+  max-height: 300px;
+  position: absolute;
+  right: 0px;
+  z-index: 1300;
+  overflow-x: auto;
+  overflow-y: visible;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: -10px;
+  max-height: 400px;
+}
+
+#hamburgerHeader{
+  cursor:pointer;
+  color:#1976d2;
+  padding-right:10px;
+  margin-left: -10px;
+  margin-top:4px;
+  display: none;
+}
+
+#headerText {
+  font-size: 27px;
+}
+
+
+@media screen and (max-width: 600px) {
+  #headerText {
+    display: None;
+    font-size: small;
+  }
+  #subheaderText {
+    display: None;
+    font-size: small;
+  }
+  #notificationDiv {
+    max-width: 70%;
+    margin-right:10px;
+    max-height: 300px;
+    position: absolute;
+    right: 0px;
+    z-index: 1300;
+    overflow-x: auto;
+    overflow-y: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  #hamburgerHeader{
+    cursor:pointer;
+    color:#1976d2;
+    padding-right:10px;
+    margin-left: -10px;
+    margin-top:4px;
+    display: inline;
+  }
+  
+  
+
+}

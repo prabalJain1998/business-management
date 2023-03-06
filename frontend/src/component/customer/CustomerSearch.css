@@ -1,0 +1,22 @@
+.searchField{
+    display:"flex";
+    width:70%;
+    margin:auto;
+    padding-top:10px
+}
+
+@media screen and (max-width: 600px) {
+
+    .searchField{
+        display:"flex";
+        flex-direction:column;
+        width:90%;
+        margin:auto;
+        padding-top:10px
+    }
+
+    #logs-filter-search-button{
+        margin-left: 10px;
+    }
+        
+}
