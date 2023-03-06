@@ -3,10 +3,10 @@ Fully Automated Business Management Platform Web application that allows User/Ad
 
 ### Table of Contents
 
-**[Technologies]**<br>
-**[Setup]**<br>
-**[Overview]**<br>
-**[Happy Flow]**<br>
+**Technologies**<br>
+**Setup**<br>
+**Overview**<br>
+**Happy Flow**<br>
 
 ## Technologies
 ![image](Mern.png)
