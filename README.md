@@ -9,7 +9,7 @@ Fully Automated Business Management Platform Web application that allows User/Ad
 **[Directory Structure](#3-directory-structure)**<br>
 
 ## Technologies
-![image](/Images/Mern.png)
+![image](Mern.png)
 
 ## Setup  
 Make sure you have installed Nodejs if not you can download it from [here](https://nodejs.org/en/download/) and Visual Studio Code from [here](https://code.visualstudio.com/download)
@@ -73,5 +73,5 @@ Finally, this web application offers multiple business management capabilities, 
 
 ## Happy Flow :
 
-![image](/Images/BusinessUI-1.jpg)
-![image](/Images/BusinessUI-2.jpg)
+![image](BusinessUI-1.jpg)
+![image](BusinessUI-2.jpg)
