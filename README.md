@@ -17,7 +17,7 @@ Make sure you have installed Nodejs if not you can download it from [here](https
 Make sure to have config.env file inside /backend/config/ Diretory.
 
 1. Clone the repository
-``` git clone https://github.com/prabalJain1998/singhai-expense-web-app.git ```
+``` git clone https://github.com/prabalJain1998/business-management.git ```
 
 2. Open the root directory in vscode
 3. Open Terminal.
@@ -30,7 +30,7 @@ npm install
 cd frontend
 ```
 ```
-npm install
+npm install --legacy-peer-deps
 ```
 6. Start the Server by running the command within root directory.
 ```
