@@ -55,7 +55,7 @@ SMTP_PASSWORD = YOURPASSWORD
 SECURE_KEY = SOMERANDOMKEY
 FRONTEND_URL = "http://localhost:3000"
 ```
-Hurray your Webapp is Up  https://business-management-2cr4jk4cp-coolprabal3-gmailcom.vercel.app/ !!!!!
+Hurray your Webapp is Up  [https://business-management-2cr4jk4cp-coolprabal3-gmailcom.vercel.app](https://business-management-lake.vercel.app/)/ !!!!!
 
 ## Overview
 
